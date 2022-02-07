@@ -1,0 +1,79 @@
+header {
+  width: 100vw;
+  height: 5rem;
+
+  background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+
+  /* Deixando ela grudada no topo */
+  position: fixed;
+  top: 0;
+}
+
+/* Flex-container */
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+/* Logo H1 */
+.logo {
+  font-size: 3rem;
+
+  font-family: 'Courgette', cursive;
+
+  color: #000000;
+}
+
+.best {
+  color: rgb(236, 69, 69);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Navig */
+.navig ul {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navig a {
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+
+  font-size: 1.1rem;
+}
+
+
+
+.navig li a:hover {
+  color: #FFFFFF;
+
+  background-color: rgb(236, 69, 69);
+
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+
+  border-radius: 0.4rem;
+
+  transition: 0.5s ease-in-out;
+
+}

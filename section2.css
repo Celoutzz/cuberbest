@@ -1,0 +1,30 @@
+#red-sec {
+  margin-top: 5rem;
+
+  height: 60vh;
+
+  background-color: rgb(236, 69, 69);
+}
+
+
+/* Content */
+.flex-section2 {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 5rem;
+}
+
+.content {
+  margin-top: 13rem;
+  margin-left: 5rem;
+
+  font-size: 2rem;
+}
+
+.img-emoji img {
+  margin-left: 2rem;
+  margin-top: 5rem;
+
+  width: 25rem;
+}

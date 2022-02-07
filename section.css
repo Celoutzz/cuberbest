@@ -1,0 +1,134 @@
+.stripe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 10rem;
+
+  height: 70vh;
+  width: 100vw;
+
+  background-color: #060709;
+
+  
+  background-image: url(images/blur.png);
+  background-position: -1.5rem;
+
+  /*background-image: radial-gradient(#000, rgb(49, 27, 25));*/
+  
+
+  /* Distanciando ela do topo grudado */
+  margin-top: 5rem;
+}
+
+
+
+
+/* Stripe section */
+.stripe h2 {
+  font-size: 3rem;
+
+  margin-top: 2rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.stripe p.p-stripe {
+  margin-bottom: 3.5rem;
+
+  font-size: 1.2rem;
+}
+
+.stripe h2, p.p-stripe {
+  font-family: 'Courgette', cursive;
+
+  color: #FFFFFF;
+}
+
+.button-stripe {
+  background-color: rgb(236, 69, 69);
+
+  padding: 0.8rem;
+
+  border-radius: 0.3rem;
+
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* Cards */
+section#card-secs .container {
+  margin-top: -10rem;
+}
+
+.bold-card {
+  font-weight: bold;
+  color: #060709;
+}
+
+
+.grid {
+  margin-top: 7rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card-cube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 19.375rem;
+  height: 25rem;
+
+
+  padding: 2rem;
+
+  background-color: #fff;
+
+  box-shadow: 2px 1px 10px rgb(75, 75, 75);
+
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+
+.card-cube:hover {
+  margin-top: -1.5rem;
+
+  transition: 0.2s ease-in-out;
+}
+
+.card-cube i:hover {
+  animation-name: r;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1s;
+  animation-timing-function: linear;
+}
+
+
+.card-cube i {
+  font-size: 4rem;
+
+  margin-bottom: 2rem;
+}
+
+.card-cube p {
+  text-align: center;
+
+  margin-top: 1rem;
+
+  color: #3b3b3b;
+}
+
+.card-cube h3.middle {
+  text-align: center;
+}
